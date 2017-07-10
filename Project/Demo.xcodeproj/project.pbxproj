@@ -10,16 +10,22 @@
 		4B21F2881E771EBB00860FD0 /* PeripheralController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B21F2871E771EBB00860FD0 /* PeripheralController.m */; };
 		4B90A0B91E7717C700B343BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B90A0B81E7717C700B343BB /* main.m */; };
 		4B90A0BC1E7717C700B343BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B90A0BB1E7717C700B343BB /* AppDelegate.m */; };
-		4B90A0C21E7717C700B343BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B90A0C01E7717C700B343BB /* Main.storyboard */; };
-		4B90A0C41E7717C700B343BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B90A0C31E7717C700B343BB /* Assets.xcassets */; };
-		4B90A0C71E7717C700B343BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B90A0C51E7717C700B343BB /* LaunchScreen.storyboard */; };
 		4B90A0CE1E77188200B343BB /* CentralController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B90A0CD1E77188200B343BB /* CentralController.m */; };
 		4BBEAF291E709091001C5A0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEAF281E709091001C5A0B /* AppDelegate.swift */; };
 		4BBEAF2B1E709091001C5A0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEAF2A1E709091001C5A0B /* ViewController.swift */; };
-		4BBEAF2E1E709091001C5A0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBEAF2C1E709091001C5A0B /* Main.storyboard */; };
-		4BBEAF301E709091001C5A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBEAF2F1E709091001C5A0B /* Assets.xcassets */; };
-		4BBEAF331E709091001C5A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBEAF311E709091001C5A0B /* LaunchScreen.storyboard */; };
 		4BBEAF391E709166001C5A0B /* RoundShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEAF381E709166001C5A0B /* RoundShadowButton.swift */; };
+		4BF7CC041F1327190082946D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7CC031F1327190082946D /* AppDelegate.swift */; };
+		4BF7CC061F1327190082946D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7CC051F1327190082946D /* ViewController.swift */; };
+		4BF7CC151F1328010082946D /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7CC141F1328010082946D /* TimerView.swift */; };
+		4BF7CC171F1328100082946D /* TimerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7CC161F1328100082946D /* TimerView.xib */; };
+		4BF7CC1A1F132A2B0082946D /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7CC181F132A2B0082946D /* clock.png */; };
+		4BF7CC1B1F132A2B0082946D /* needle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7CC191F132A2B0082946D /* needle.png */; };
+		4BF7CC1D1F133D600082946D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7CC1C1F133D600082946D /* Launch Screen.storyboard */; };
+		4BF7CC1E1F133D600082946D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7CC1C1F133D600082946D /* Launch Screen.storyboard */; };
+		4BF7CC1F1F133D600082946D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7CC1C1F133D600082946D /* Launch Screen.storyboard */; };
+		4BF7CC211F13906E0082946D /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7CC201F13906E0082946D /* image.png */; };
+		4BF7CC231F1391590082946D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7CC221F1391590082946D /* Main.storyboard */; };
+		4BF7CC251F1391A60082946D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7CC241F1391A60082946D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,20 +35,26 @@
 		4B90A0B81E7717C700B343BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B90A0BA1E7717C700B343BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B90A0BB1E7717C700B343BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4B90A0C11E7717C700B343BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4B90A0C31E7717C700B343BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4B90A0C61E7717C700B343BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B90A0C81E7717C700B343BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B90A0CC1E77188200B343BB /* CentralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralController.h; sourceTree = "<group>"; };
 		4B90A0CD1E77188200B343BB /* CentralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralController.m; sourceTree = "<group>"; };
 		4BBEAF261E709091001C5A0B /* RoundShadowButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundShadowButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBEAF281E709091001C5A0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BBEAF2A1E709091001C5A0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4BBEAF2D1E709091001C5A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4BBEAF2F1E709091001C5A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4BBEAF321E709091001C5A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BBEAF341E709091001C5A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BBEAF381E709166001C5A0B /* RoundShadowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundShadowButton.swift; path = ../../Class/RoundShadowButton.swift; sourceTree = "<group>"; };
+		4BF7CC011F1327190082946D /* AnimateTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimateTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF7CC031F1327190082946D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BF7CC051F1327190082946D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BF7CC0F1F1327190082946D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF7CC141F1328010082946D /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		4BF7CC161F1328100082946D /* TimerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimerView.xib; sourceTree = "<group>"; };
+		4BF7CC181F132A2B0082946D /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		4BF7CC191F132A2B0082946D /* needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = needle.png; sourceTree = "<group>"; };
+		4BF7CC1C1F133D600082946D /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4BF7CC201F13906E0082946D /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		4BF7CC221F1391590082946D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4BF7CC241F1391A60082946D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4BBEAF231E709091001C5A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF7CBFE1F1327190082946D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,10 +91,8 @@
 				4B90A0CD1E77188200B343BB /* CentralController.m */,
 				4B21F2861E771EBB00860FD0 /* PeripheralController.h */,
 				4B21F2871E771EBB00860FD0 /* PeripheralController.m */,
-				4B90A0C01E7717C700B343BB /* Main.storyboard */,
-				4B90A0C31E7717C700B343BB /* Assets.xcassets */,
-				4B90A0C51E7717C700B343BB /* LaunchScreen.storyboard */,
 				4B90A0C81E7717C700B343BB /* Info.plist */,
+				4BF7CC241F1391A60082946D /* Main.storyboard */,
 				4B90A0B71E7717C700B343BB /* Supporting Files */,
 			);
 			path = CBImage;
@@ -84,6 +101,7 @@
 		4B90A0B71E7717C700B343BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4BF7CC201F13906E0082946D /* image.png */,
 				4B90A0B81E7717C700B343BB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -92,8 +110,10 @@
 		4BBEAED81E708FAC001C5A0B = {
 			isa = PBXGroup;
 			children = (
+				4BF7CC1C1F133D600082946D /* Launch Screen.storyboard */,
 				4BBEAF271E709091001C5A0B /* RoundShadowButton */,
 				4B90A0B61E7717C700B343BB /* CBImage */,
+				4BF7CC021F1327190082946D /* AnimateTimer */,
 				4BBEAEE21E708FAC001C5A0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +123,7 @@
 			children = (
 				4BBEAF261E709091001C5A0B /* RoundShadowButton.app */,
 				4B90A0B51E7717C700B343BB /* CBImage.app */,
+				4BF7CC011F1327190082946D /* AnimateTimer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,13 +133,34 @@
 			children = (
 				4BBEAF281E709091001C5A0B /* AppDelegate.swift */,
 				4BBEAF2A1E709091001C5A0B /* ViewController.swift */,
-				4BBEAF2C1E709091001C5A0B /* Main.storyboard */,
-				4BBEAF2F1E709091001C5A0B /* Assets.xcassets */,
-				4BBEAF311E709091001C5A0B /* LaunchScreen.storyboard */,
 				4BBEAF341E709091001C5A0B /* Info.plist */,
 				4BBEAF381E709166001C5A0B /* RoundShadowButton.swift */,
+				4BF7CC221F1391590082946D /* Main.storyboard */,
 			);
 			path = RoundShadowButton;
+			sourceTree = "<group>";
+		};
+		4BF7CC021F1327190082946D /* AnimateTimer */ = {
+			isa = PBXGroup;
+			children = (
+				4BF7CC131F1327D50082946D /* AnimateTimer */,
+				4BF7CC031F1327190082946D /* AppDelegate.swift */,
+				4BF7CC051F1327190082946D /* ViewController.swift */,
+				4BF7CC0F1F1327190082946D /* Info.plist */,
+			);
+			path = AnimateTimer;
+			sourceTree = "<group>";
+		};
+		4BF7CC131F1327D50082946D /* AnimateTimer */ = {
+			isa = PBXGroup;
+			children = (
+				4BF7CC181F132A2B0082946D /* clock.png */,
+				4BF7CC191F132A2B0082946D /* needle.png */,
+				4BF7CC141F1328010082946D /* TimerView.swift */,
+				4BF7CC161F1328100082946D /* TimerView.xib */,
+			);
+			name = AnimateTimer;
+			path = ../../Class/AnimateTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,13 +200,30 @@
 			productReference = 4BBEAF261E709091001C5A0B /* RoundShadowButton.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4BF7CC001F1327190082946D /* AnimateTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF7CC101F1327190082946D /* Build configuration list for PBXNativeTarget "AnimateTimer" */;
+			buildPhases = (
+				4BF7CBFD1F1327190082946D /* Sources */,
+				4BF7CBFE1F1327190082946D /* Frameworks */,
+				4BF7CBFF1F1327190082946D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimateTimer;
+			productName = AnimateTimer;
+			productReference = 4BF7CC011F1327190082946D /* AnimateTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		4BBEAED91E708FAC001C5A0B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Kevin Sum";
 				TargetAttributes = {
@@ -175,6 +234,11 @@
 					};
 					4BBEAF251E709091001C5A0B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L83GZJQVEH;
+						ProvisioningStyle = Automatic;
+					};
+					4BF7CC001F1327190082946D = {
+						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = L83GZJQVEH;
 						ProvisioningStyle = Automatic;
 					};
@@ -195,6 +259,7 @@
 			targets = (
 				4BBEAF251E709091001C5A0B /* RoundShadowButton */,
 				4B90A0B41E7717C700B343BB /* CBImage */,
+				4BF7CC001F1327190082946D /* AnimateTimer */,
 			);
 		};
 /* End PBXProject section */
@@ -204,9 +269,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B90A0C71E7717C700B343BB /* LaunchScreen.storyboard in Resources */,
-				4B90A0C41E7717C700B343BB /* Assets.xcassets in Resources */,
-				4B90A0C21E7717C700B343BB /* Main.storyboard in Resources */,
+				4BF7CC251F1391A60082946D /* Main.storyboard in Resources */,
+				4BF7CC1E1F133D600082946D /* Launch Screen.storyboard in Resources */,
+				4BF7CC211F13906E0082946D /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,9 +279,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BBEAF331E709091001C5A0B /* LaunchScreen.storyboard in Resources */,
-				4BBEAF301E709091001C5A0B /* Assets.xcassets in Resources */,
-				4BBEAF2E1E709091001C5A0B /* Main.storyboard in Resources */,
+				4BF7CC1D1F133D600082946D /* Launch Screen.storyboard in Resources */,
+				4BF7CC231F1391590082946D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF7CBFF1F1327190082946D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF7CC1B1F132A2B0082946D /* needle.png in Resources */,
+				4BF7CC1A1F132A2B0082946D /* clock.png in Resources */,
+				4BF7CC1F1F133D600082946D /* Launch Screen.storyboard in Resources */,
+				4BF7CC171F1328100082946D /* TimerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,48 +319,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4BF7CBFD1F1327190082946D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF7CC151F1328010082946D /* TimerView.swift in Sources */,
+				4BF7CC061F1327190082946D /* ViewController.swift in Sources */,
+				4BF7CC041F1327190082946D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4B90A0C01E7717C700B343BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B90A0C11E7717C700B343BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4B90A0C51E7717C700B343BB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B90A0C61E7717C700B343BB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		4BBEAF2C1E709091001C5A0B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BBEAF2D1E709091001C5A0B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4BBEAF311E709091001C5A0B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BBEAF321E709091001C5A0B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4B90A0C91E7717C700B343BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L83GZJQVEH;
 				INFOPLIST_FILE = CBImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -297,7 +346,6 @@
 		4B90A0CA1E7717C700B343BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L83GZJQVEH;
 				INFOPLIST_FILE = CBImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -402,7 +450,6 @@
 		4BBEAF361E709091001C5A0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L83GZJQVEH;
 				INFOPLIST_FILE = RoundShadowButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -415,11 +462,36 @@
 		4BBEAF371E709091001C5A0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L83GZJQVEH;
 				INFOPLIST_FILE = RoundShadowButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevinsum.demo.RoundShadowButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4BF7CC111F1327190082946D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = L83GZJQVEH;
+				INFOPLIST_FILE = AnimateTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinsum.demo.AnimateTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4BF7CC121F1327190082946D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = L83GZJQVEH;
+				INFOPLIST_FILE = AnimateTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinsum.demo.AnimateTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -454,6 +526,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		4BF7CC101F1327190082946D /* Build configuration list for PBXNativeTarget "AnimateTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF7CC111F1327190082946D /* Debug */,
+				4BF7CC121F1327190082946D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

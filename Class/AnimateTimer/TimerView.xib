@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimerView" customModule="AnimateTimer" customModuleProvider="target">
+            <connections>
+                <outlet property="progressView" destination="QzC-N2-bqt" id="aAa-bD-8rn"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="463"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock.png" translatesAutoresizingMaskIntoConstraints="NO" id="wfF-DI-eKs">
+                    <rect key="frame" x="0.0" y="26" width="327" height="437"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="wfF-DI-eKs" secondAttribute="height" multiplier="104:139" id="ME2-Ky-66h"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UFV-jS-7y3">
+                    <rect key="frame" x="0.0" y="136" width="327" height="327"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QzC-N2-bqt" customClass="NeedleView" customModule="AnimateTimer" customModuleProvider="target">
+                            <rect key="frame" x="65" y="65.5" width="197" height="196.5"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="needle.png" translatesAutoresizingMaskIntoConstraints="NO" id="9ss-No-JLS">
+                                    <rect key="frame" x="81.5" y="0.0" width="35" height="196.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" secondItem="9ss-No-JLS" secondAttribute="width" multiplier="260:46" id="F7i-11-hL6"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="9ss-No-JLS" firstAttribute="centerX" secondItem="QzC-N2-bqt" secondAttribute="centerX" id="1IO-KO-pM5"/>
+                                <constraint firstAttribute="width" secondItem="QzC-N2-bqt" secondAttribute="height" id="5il-7d-CcN"/>
+                                <constraint firstItem="9ss-No-JLS" firstAttribute="centerY" secondItem="QzC-N2-bqt" secondAttribute="centerY" id="6e1-MI-5uP"/>
+                                <constraint firstItem="9ss-No-JLS" firstAttribute="height" secondItem="QzC-N2-bqt" secondAttribute="height" id="T6h-3E-JGe"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="UFV-jS-7y3" secondAttribute="height" multiplier="1:1" id="Kph-Wg-KgP"/>
+                        <constraint firstItem="QzC-N2-bqt" firstAttribute="width" secondItem="UFV-jS-7y3" secondAttribute="width" multiplier="0.6" id="Rpf-Kj-0Qe"/>
+                        <constraint firstItem="QzC-N2-bqt" firstAttribute="centerX" secondItem="UFV-jS-7y3" secondAttribute="centerX" id="YA4-af-wf7"/>
+                        <constraint firstItem="QzC-N2-bqt" firstAttribute="centerY" secondItem="UFV-jS-7y3" secondAttribute="centerY" id="rvX-dG-uJm"/>
+                        <constraint firstAttribute="width" secondItem="UFV-jS-7y3" secondAttribute="height" id="tMn-SA-EFf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="wfF-DI-eKs" secondAttribute="bottom" id="1jJ-6b-aWb"/>
+                <constraint firstItem="UFV-jS-7y3" firstAttribute="centerX" secondItem="wfF-DI-eKs" secondAttribute="centerX" id="Lwx-Ut-tkd"/>
+                <constraint firstItem="wfF-DI-eKs" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="Rgg-ix-4Nk"/>
+                <constraint firstAttribute="bottom" secondItem="UFV-jS-7y3" secondAttribute="bottom" id="df7-I6-7GX"/>
+                <constraint firstItem="wfF-DI-eKs" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="izO-ve-kMx"/>
+                <constraint firstItem="UFV-jS-7y3" firstAttribute="width" secondItem="wfF-DI-eKs" secondAttribute="width" id="s8V-dM-vNY"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="13.5" y="338.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="clock.png" width="416" height="556"/>
+        <image name="needle.png" width="46" height="260"/>
+    </resources>
+</document>

@@ -29,6 +29,8 @@
  *  待接收的图片数据（以二进制形式保存）
  */
 @property (strong ,nonatomic) NSMutableData* picData;
+    
+@property (strong, nonatomic) NSTimer *RSSITimer;
 /*
  * 完整的、由二进制数据转化来的图片
  */
@@ -60,6 +62,7 @@ static NSString *kServiceUUID = @"03320B3D-06AE-4DA3-A6AD-8BC4F3E8E6F5";
 
 -(void)viewWillDisappear:(BOOL)animated{
     [self.centralManager stopScan];
+    [self.RSSITimer invalidate];
     NSLog(@"Scan stopped.");
     [super viewWillDisappear:YES];
 }
@@ -123,8 +126,8 @@ static NSString *kServiceUUID = @"03320B3D-06AE-4DA3-A6AD-8BC4F3E8E6F5";
     self.PeripheralUUIDLabel.text =[(CBUUID* )peripheral.identifier UUIDString];
     
     //set up timer to read rssi value
-//    self.RSSITimer = [NSTimer scheduledTimerWithTimeInterval:0.1f target:self selector:@selector(readPeripheralRSSI) userInfo:nil repeats:YES];
-//    [[NSRunLoop mainRunLoop]addTimer:self.RSSITimer forMode:NSRunLoopCommonModes];
+    self.RSSITimer = [NSTimer scheduledTimerWithTimeInterval:0.1f target:self selector:@selector(readPeripheralRSSI) userInfo:nil repeats:YES];
+    [[NSRunLoop mainRunLoop]addTimer:self.RSSITimer forMode:NSRunLoopCommonModes];
     
     
     NSLog(@"Peripheral connected.Now going to discover the service...");
@@ -135,6 +138,10 @@ static NSString *kServiceUUID = @"03320B3D-06AE-4DA3-A6AD-8BC4F3E8E6F5";
     
     //attempt to discover the service
     [peripheral discoverServices:@[[CBUUID UUIDWithString:kServiceUUID]]];
+}
+    
+- (void)readPeripheralRSSI {
+    [self.discoveredPeripheral readRSSI];
 }
 
 -(void)peripheral:(CBPeripheral *)peripheral didDiscoverServices:(NSError *)error{
@@ -209,6 +216,10 @@ static NSString *kServiceUUID = @"03320B3D-06AE-4DA3-A6AD-8BC4F3E8E6F5";
     else//transmission not complete
         [self.picData appendData:characteristic.value];
     
+}
+    
+- (void)peripheral:(CBPeripheral *)peripheral didReadRSSI:(NSNumber *)RSSI error:(NSError *)error {
+    _RSSIValueLabel.text = RSSI.stringValue;
 }
 
 -(void)cleanup{
