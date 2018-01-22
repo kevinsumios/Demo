@@ -46,7 +46,15 @@ class RoundShadowButton: UIButton {
     
     func highlight(_ enable: Bool) {
         // Enable/Disable shadow in the layer
-        
+        if enable {
+        shadowOffset = CGSize(width: 5.0, height: 5.0)
+        shadowOpacity = 0.8
+        shadowColor = .lightGray
+        } else {
+            shadowOffset = .zero
+            shadowOpacity = 0.0
+            shadowColor = .lightGray
+        }
     }
     
     func enable(_ enable: Bool) {

@@ -299,12 +299,12 @@
 					};
 					4B90A0B41E7717C700B343BB = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = L83GZJQVEH;
+						DevelopmentTeam = FLM97C8HT8;
 						ProvisioningStyle = Automatic;
 					};
 					4BBEAF251E709091001C5A0B = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = L83GZJQVEH;
+						DevelopmentTeam = FLM97C8HT8;
 						ProvisioningStyle = Automatic;
 					};
 					4BF7CC001F1327190082946D = {
@@ -500,7 +500,7 @@
 		4B90A0C91E7717C700B343BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = L83GZJQVEH;
+				DEVELOPMENT_TEAM = FLM97C8HT8;
 				INFOPLIST_FILE = CBImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevinsum.demo.CBImage;
@@ -511,7 +511,7 @@
 		4B90A0CA1E7717C700B343BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = L83GZJQVEH;
+				DEVELOPMENT_TEAM = FLM97C8HT8;
 				INFOPLIST_FILE = CBImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevinsum.demo.CBImage;
@@ -615,7 +615,7 @@
 		4BBEAF361E709091001C5A0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = L83GZJQVEH;
+				DEVELOPMENT_TEAM = FLM97C8HT8;
 				INFOPLIST_FILE = RoundShadowButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevinsum.demo.RoundShadowButton;
@@ -627,7 +627,7 @@
 		4BBEAF371E709091001C5A0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = L83GZJQVEH;
+				DEVELOPMENT_TEAM = FLM97C8HT8;
 				INFOPLIST_FILE = RoundShadowButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevinsum.demo.RoundShadowButton;
