@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A455C5D201577EE006035C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A455C5C201577EE006035C3 /* AppDelegate.swift */; };
+		0A455C5F201577EE006035C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A455C5E201577EE006035C3 /* ViewController.swift */; };
+		0A455C62201577EE006035C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A455C60201577EE006035C3 /* Main.storyboard */; };
+		0A455C64201577EE006035C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A455C63201577EE006035C3 /* Assets.xcassets */; };
+		0A455C67201577EE006035C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A455C65201577EE006035C3 /* LaunchScreen.storyboard */; };
+		0A4984672015788E0010759E /* ClockFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4984662015788E0010759E /* ClockFace.swift */; };
+		0A498469201578A10010759E /* ClockFace.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A498468201578A10010759E /* ClockFace.xib */; };
 		4B21F2881E771EBB00860FD0 /* PeripheralController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B21F2871E771EBB00860FD0 /* PeripheralController.m */; };
 		4B90A0B91E7717C700B343BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B90A0B81E7717C700B343BB /* main.m */; };
 		4B90A0BC1E7717C700B343BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B90A0BB1E7717C700B343BB /* AppDelegate.m */; };
@@ -29,6 +36,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A455C5A201577EE006035C3 /* SpinClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A455C5C201577EE006035C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A455C5E201577EE006035C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A455C61201577EE006035C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A455C63201577EE006035C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A455C66201577EE006035C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A455C68201577EE006035C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4984662015788E0010759E /* ClockFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClockFace.swift; path = ../../../Class/SpinClock/ClockFace.swift; sourceTree = "<group>"; };
+		0A498468201578A10010759E /* ClockFace.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ClockFace.xib; path = ../../../Class/SpinClock/ClockFace.xib; sourceTree = "<group>"; };
 		4B21F2861E771EBB00860FD0 /* PeripheralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralController.h; sourceTree = "<group>"; };
 		4B21F2871E771EBB00860FD0 /* PeripheralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralController.m; sourceTree = "<group>"; };
 		4B90A0B51E7717C700B343BB /* CBImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +74,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0A455C57201577EE006035C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4B90A0B21E7717C700B343BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,6 +105,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A455C5B201577EE006035C3 /* SpinClock */ = {
+			isa = PBXGroup;
+			children = (
+				0A455C6C2015780F006035C3 /* SpinClock */,
+				0A455C5C201577EE006035C3 /* AppDelegate.swift */,
+				0A455C5E201577EE006035C3 /* ViewController.swift */,
+				0A455C60201577EE006035C3 /* Main.storyboard */,
+				0A455C63201577EE006035C3 /* Assets.xcassets */,
+				0A455C65201577EE006035C3 /* LaunchScreen.storyboard */,
+				0A455C68201577EE006035C3 /* Info.plist */,
+			);
+			path = SpinClock;
+			sourceTree = "<group>";
+		};
+		0A455C6C2015780F006035C3 /* SpinClock */ = {
+			isa = PBXGroup;
+			children = (
+				0A4984662015788E0010759E /* ClockFace.swift */,
+				0A498468201578A10010759E /* ClockFace.xib */,
+			);
+			path = SpinClock;
+			sourceTree = "<group>";
+		};
 		4B90A0B61E7717C700B343BB /* CBImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +160,7 @@
 				4BBEAF271E709091001C5A0B /* RoundShadowButton */,
 				4B90A0B61E7717C700B343BB /* CBImage */,
 				4BF7CC021F1327190082946D /* AnimateTimer */,
+				0A455C5B201577EE006035C3 /* SpinClock */,
 				4BBEAEE21E708FAC001C5A0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,6 +171,7 @@
 				4BBEAF261E709091001C5A0B /* RoundShadowButton.app */,
 				4B90A0B51E7717C700B343BB /* CBImage.app */,
 				4BF7CC011F1327190082946D /* AnimateTimer.app */,
+				0A455C5A201577EE006035C3 /* SpinClock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,6 +214,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0A455C59201577EE006035C3 /* SpinClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A455C6B201577EE006035C3 /* Build configuration list for PBXNativeTarget "SpinClock" */;
+			buildPhases = (
+				0A455C56201577EE006035C3 /* Sources */,
+				0A455C57201577EE006035C3 /* Frameworks */,
+				0A455C58201577EE006035C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinClock;
+			productName = SpinClock;
+			productReference = 0A455C5A201577EE006035C3 /* SpinClock.app */;
+			productType = "com.apple.product-type.application";
+		};
 		4B90A0B41E7717C700B343BB /* CBImage */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B90A0CB1E7717C700B343BB /* Build configuration list for PBXNativeTarget "CBImage" */;
@@ -223,10 +288,15 @@
 		4BBEAED91E708FAC001C5A0B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Kevin Sum";
 				TargetAttributes = {
+					0A455C59201577EE006035C3 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = FLM97C8HT8;
+						ProvisioningStyle = Automatic;
+					};
 					4B90A0B41E7717C700B343BB = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = L83GZJQVEH;
@@ -260,11 +330,23 @@
 				4BBEAF251E709091001C5A0B /* RoundShadowButton */,
 				4B90A0B41E7717C700B343BB /* CBImage */,
 				4BF7CC001F1327190082946D /* AnimateTimer */,
+				0A455C59201577EE006035C3 /* SpinClock */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0A455C58201577EE006035C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A455C67201577EE006035C3 /* LaunchScreen.storyboard in Resources */,
+				0A498469201578A10010759E /* ClockFace.xib in Resources */,
+				0A455C64201577EE006035C3 /* Assets.xcassets in Resources */,
+				0A455C62201577EE006035C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4B90A0B31E7717C700B343BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,6 +380,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A455C56201577EE006035C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A455C5F201577EE006035C3 /* ViewController.swift in Sources */,
+				0A4984672015788E0010759E /* ClockFace.swift in Sources */,
+				0A455C5D201577EE006035C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4B90A0B11E7717C700B343BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,7 +423,80 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		0A455C60201577EE006035C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A455C61201577EE006035C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A455C65201577EE006035C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A455C66201577EE006035C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		0A455C69201577EE006035C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLM97C8HT8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SpinClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinsum.SpinClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A455C6A201577EE006035C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLM97C8HT8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SpinClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinsum.SpinClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		4B90A0C91E7717C700B343BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -500,6 +665,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A455C6B201577EE006035C3 /* Build configuration list for PBXNativeTarget "SpinClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A455C69201577EE006035C3 /* Debug */,
+				0A455C6A201577EE006035C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4B90A0CB1E7717C700B343BB /* Build configuration list for PBXNativeTarget "CBImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -534,6 +708,7 @@
 				4BF7CC121F1327190082946D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

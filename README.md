@@ -15,3 +15,9 @@ A demo how to use CoreBluetooth to transfer image.
 A pretty animation timer
 
 ![AnimationTimer](Resource/AnimateTimer.gif)
+
+## SpinClock
+
+A spinable clock for show/set time intuitionally
+
+![SpinClock](Resource/SpinClock.gif)

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ClockFace" customModule="SpinClock" customModuleProvider="target">
+            <connections>
+                <outlet property="hourHand" destination="pte-6m-0Yy" id="Jda-cC-Fee"/>
+                <outlet property="hourRecognizer" destination="aLL-9b-uK6" id="S5l-Fm-PaD"/>
+                <outlet property="hourView" destination="3BV-vd-KjC" id="Ykt-Qx-Vwr"/>
+                <outlet property="minuteHand" destination="R8q-kH-cab" id="H05-Z9-9RP"/>
+                <outlet property="minuteRecognizer" destination="SaZ-2S-MPs" id="s40-YP-mfK"/>
+                <outlet property="minuteView" destination="tY0-ez-v47" id="PBF-8g-qp4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tY0-ez-v47">
+                    <rect key="frame" x="90" y="20" width="20" height="160"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R8q-kH-cab" customClass="ClockHand" customModule="SpinClock" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="20" height="80"/>
+                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="SaZ-2S-MPs" appends="YES" id="p37-wf-2Db"/>
+                            </connections>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="R8q-kH-cab" firstAttribute="leading" secondItem="tY0-ez-v47" secondAttribute="leading" id="CCN-oS-GtW"/>
+                        <constraint firstItem="R8q-kH-cab" firstAttribute="height" secondItem="tY0-ez-v47" secondAttribute="height" multiplier="0.5" id="E0J-8J-pWO"/>
+                        <constraint firstAttribute="trailing" secondItem="R8q-kH-cab" secondAttribute="trailing" id="KED-YQ-36X"/>
+                        <constraint firstItem="R8q-kH-cab" firstAttribute="top" secondItem="tY0-ez-v47" secondAttribute="top" id="N1o-Gm-c5M"/>
+                        <constraint firstAttribute="width" constant="20" id="ant-l9-WbN"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3BV-vd-KjC">
+                    <rect key="frame" x="92.5" y="40" width="15" height="120"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pte-6m-0Yy" customClass="ClockHand" customModule="SpinClock" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="15" height="60"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="aLL-9b-uK6" appends="YES" id="RyD-mm-8X9"/>
+                            </connections>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="pte-6m-0Yy" firstAttribute="leading" secondItem="3BV-vd-KjC" secondAttribute="leading" id="A2g-zz-b0M"/>
+                        <constraint firstItem="pte-6m-0Yy" firstAttribute="height" secondItem="3BV-vd-KjC" secondAttribute="height" multiplier="0.5" id="Eew-ou-zWC"/>
+                        <constraint firstAttribute="width" constant="15" id="hYA-XJ-z4w"/>
+                        <constraint firstAttribute="trailing" secondItem="pte-6m-0Yy" secondAttribute="trailing" id="p6v-cX-2Ns"/>
+                        <constraint firstItem="pte-6m-0Yy" firstAttribute="top" secondItem="3BV-vd-KjC" secondAttribute="top" id="ztN-4C-znC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3BV-vd-KjC" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="48D-GN-Trv"/>
+                <constraint firstItem="tY0-ez-v47" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="AEG-NH-FjX"/>
+                <constraint firstItem="tY0-ez-v47" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.8" id="O5B-jE-wJp"/>
+                <constraint firstItem="3BV-vd-KjC" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bMw-wN-YeH"/>
+                <constraint firstItem="tY0-ez-v47" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="eFW-If-yn9"/>
+                <constraint firstItem="3BV-vd-KjC" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.6" id="zQJ-Id-iUk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="SaZ-2S-MPs">
+            <connections>
+                <action selector="didPanView:" destination="-1" id="5g2-MR-J6p"/>
+            </connections>
+        </panGestureRecognizer>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="aLL-9b-uK6">
+            <connections>
+                <action selector="didPanView:" destination="-1" id="N3a-Ct-MGL"/>
+            </connections>
+        </panGestureRecognizer>
+    </objects>
+</document>
